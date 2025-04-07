@@ -18,7 +18,7 @@ let str = "123"; // string >> 123
 // alert(typeof str);
 console.log(str);
 
-str = Number(str); // numeric >> 123
+str = Number(str); // numeric >>  123
 // alert(typeof str);
 console.log(str);
 
