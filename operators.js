@@ -43,6 +43,23 @@ console.log(2 + '1');
 console.log( 2 + 2 + '1');
 console.log( '1' + 2 + 2);
 
-console.log("example only operator + ")
+console.log("example only operator + ");
 console.log(6 - '2');
 console.log('6' / '2');
+
+// NUMERIC CONVERSION, UNARY +
+console.log("Numeric Conversion, Unary +");
+
+console.log( +x );
+console.log( -x );
+console.log(+y);
+
+console.log(+true);
+console.log(+"");
+console.log(+" ");
+
+let apples = "2";
+let orange = "3";
+console.log(apples + orange);
+console.log(+apples + +orange);
+console.log(-apples + -orange);
