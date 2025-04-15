@@ -37,16 +37,3 @@ console.log(age);
 
 age = Number(" "); // 0
 console.log(age);
-
-age = Number("s"); // NAN
-console.log(age);
-
-// BOOLEAN CONVERSION
-alert("BOOLEAN CONVERSION");
-console.log("BOOLEAN CONVERSION");
-console.log(Boolean(1));//True
-console.log(Boolean(0));//False
-console.log(Boolean("Hello"));//True
-console.log(Boolean(""));//False
-console.log(Boolean("0"));//True
-console.log(Boolean(" "));//True
