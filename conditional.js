@@ -51,3 +51,8 @@ if (age > 18 ) {
 } else {
     accessAllowed = false;
 }
+
+// let age = prompt('how old are you?');
+// let accessAllowed = (age > 18) ? true : false;
+
+console.log(accessAllowed);
